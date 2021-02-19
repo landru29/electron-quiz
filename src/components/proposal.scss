@@ -1,0 +1,49 @@
+div.proposal {
+    margin: 4px 0 4px 0;
+
+    label {
+        margin-left: 10px;
+
+        &.correction {
+          color: #7b7b7c;
+
+          &.selected-wrong {
+            text-decoration: line-through;
+            
+          }
+  
+          &.correct {
+            font-size: 1.2em;
+            color: #fbf6f6;
+          }
+
+          &.missing {
+            font-size: 1.2em;
+            color: #fbf6f6;
+          }
+
+        }
+    }
+
+    span.correction {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+
+      &.correct {
+        background: no-repeat url("./right.png");
+        background-size: 100%;
+      }
+
+      &.selected-wrong {
+        background: no-repeat url("./cross.png");
+        background-size: 100%;
+      }
+
+      &.missing{
+        background: no-repeat url("./arrow.png");
+        background-size: 100%;
+      }
+    }
+}
+

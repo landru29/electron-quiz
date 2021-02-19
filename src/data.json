@@ -1,0 +1,240 @@
+[
+    {
+        "id": "1083",
+        "question": "A l'arrivée sur un terrain contrôlé, vous tombez en panne radio avant d'avoir reçu la clairance d'intégration :",
+        "explaination": "Panne radio avant la clairance d'intégration : on dégage.\nPanne radio après : on poursuit jusqu'à l'atterrissage, en faisant attention aux autres aéronefs, et en guettant les signaux lumineux.Revoir plus tardSupprimer de la liste \"A Revoir\"Poser une questionCommentaires (3)Masquer les commentaires",
+        "attachedB64": "",
+        "explainationAttachedB64": null,
+        "responses": [
+            {
+                "correct": false,
+                "label": "vous orbitez, en attendant l'avion-guide qui vous mènera au terrain."
+            },
+            {
+                "correct": true,
+                "label": "vous ne devez pas vous intégrer, sauf en cas d'urgence."
+            },
+            {
+                "correct": false,
+                "label": "vous poursuivez jusqu'à l'atterrissage."
+            }
+        ]
+    },
+    {
+        "id": "1971",
+        "question": "A la rubrique 13 du plan de vol, dans la case \"heure\", vous inscrivez l'heure :",
+        "explaination": "Revoir plus tardSupprimer de la liste \"A Revoir\"Poser une questionCommentaires (0)Masquer les commentaires",
+        "attachedB64": "",
+        "explainationAttachedB64": null,
+        "responses": [
+            {
+                "correct": false,
+                "label": "de dépôt du plan de vol."
+            },
+            {
+                "correct": true,
+                "label": "estimée de départ du poste de stationnement."
+            },
+            {
+                "correct": false,
+                "label": "estimée de décollage de l'aérodrome."
+            },
+            {
+                "correct": false,
+                "label": "de début de la nuit aéronautique."
+            }
+        ]
+    },
+    {
+        "id": "3240",
+        "question": "Vous êtes en vol à une hauteur de 200 mètres. Le ciel est couvert et la base de la couche nuageuse est à une hauteur d'environ 300 mètres.\nSur votre trajectoire, une antenne culmine à une hauteur de 200 mètres. Pour l'éviter :",
+        "explaination": "Extrait des règles de l'air :\nFRA.5005 f) 2)\ni) Les aéronefs qui circulent sans personne à bord, les planeurs effectuant des vols de pente, les ballons et les planeurs ultralégers peuvent évoluer à une hauteur inférieure à la hauteur minimale fixée par les dispositions de SERA.5005 f) 2) sous réserve de n’entraîner aucun risque pour les personnes ou les biens à la surface.\nii) Dans le cadre d'un vol d'instruction, la hauteur minimale fixée par les dispositions de SERA 5005 f) 2) est abaissée à 50 m (150 ft) pour les entraînements aux atterrissages forcés.\niii) Les aéronefs habités mentionnés au i) et ii) maintiennent en permanence une distance de 150 m par rapport à toute personne, tout véhicule, tout navire à la surface et tout obstacle artificiel.\n\nNote : la version précédente de ce QCM parlait de la distance de sécurité. Or, depuis la mise en place de SERA, la valeur de 150 m est revenue à la mode.Revoir plus tardSupprimer de la liste \"A Revoir\"Poser une questionCommentaires (7)Masquer les commentaires",
+        "attachedB64": "",
+        "explainationAttachedB64": null,
+        "responses": [
+            {
+                "correct": false,
+                "label": "vous devez rester en palier en vous écartant légèrement de votre route pour passer à une distance horizontale de 50 mètres par rapport à l'antenne."
+            },
+            {
+                "correct": true,
+                "label": "vous devez rester en palier et modifier votre trajectoire pour passer à une distance horizontale d'au moins 150 mètres par rapport à l'antenne."
+            },
+            {
+                "correct": false,
+                "label": "vous vous écartez à une distance suffisante pour assurer votre sécurité."
+            },
+            {
+                "correct": false,
+                "label": "vous devez monter jusqu'à la base des nuages (300 mètres) pour laisser entre l'antenne et vous une marge de franchissement d'obstacle de 100 mètres."
+            }
+        ]
+    },
+    {
+        "id": "1431",
+        "question": "Vous êtes en croisière à une altitude de 200 mètres. Le ciel est couvert et la base de la couche nuageuse continue est à une altitude de 300 mètres.\nSur votre trajectoire, une antenne culmine à une altitude de 200 mètres. Pour l'éviter :",
+        "explaination": "Les règles de l'air stipulent qu'il faut rester à 150 mètres des obstacles. Comme la couche nuageuse ne vous permet pas de passer au-dessus de cette antenne, il faut la contourner.\n\nVoir la fiche de révision sur les hauteurs de survolRevoir plus tardSupprimer de la liste \"A Revoir\"Poser une questionCommentaires (5)Masquer les commentaires",
+        "attachedB64": "",
+        "explainationAttachedB64": null,
+        "responses": [
+            {
+                "correct": false,
+                "label": "vous montez jusqu'à la base des nuages (300 mètres) pour laisser entre l'antenne et vous une marge de franchissement d'obstacle de 100 mètres."
+            },
+            {
+                "correct": false,
+                "label": "vous montez à une hauteur de 350 mètres pour laisser entre l'antenne et vous une marge de franchissement d'obstacle de 150 mètres."
+            },
+            {
+                "correct": true,
+                "label": "vous restez en palier mais vous modifiez votre trajectoire pour passer à une distance horizontale d'au moins 150 mètres par rapport à l'antenne."
+            },
+            {
+                "correct": false,
+                "label": "vous restez en palier mais vous modifiez votre trajectoire pour passer à une distance horizontale de 50 mètres par rapport à l'antenne."
+            }
+        ]
+    },
+    {
+        "id": "1836",
+        "question": "Les avions ayant un certificat de navigabilité postérieur au 1er décembre 1988, ont la commande de pas d'hélice de couleur :",
+        "explaination": "Les couleurs des commandes sont :\n- Manette des Gaz : noir\n- Commande d'hélice : bleu\n- Réchauffage carburateur : jaune ou grise\n- Richesse : rougeRevoir plus tardSupprimer de la liste \"A Revoir\"Poser une questionCommentaires (0)Masquer les commentaires",
+        "attachedB64": "",
+        "explainationAttachedB64": null,
+        "responses": [
+            {
+                "correct": false,
+                "label": "jaune."
+            },
+            {
+                "correct": true,
+                "label": "bleue."
+            },
+            {
+                "correct": false,
+                "label": "noire."
+            },
+            {
+                "correct": false,
+                "label": "rouge."
+            }
+        ]
+    },
+    {
+        "id": "2352",
+        "question": "Conformément à l'annexe 13 de la convention de l'OACI (relative aux enquêtes et accidents), tout accident doit faire l'objet :",
+        "explaination": "En France, il s'agit du Bureau d'Enquêtes et d'Analyse (http://www.bea.aero) dont les rapports d'enquête sont très instructifs.Revoir plus tardSupprimer de la liste \"A Revoir\"Poser une questionCommentaires (0)Masquer les commentaires",
+        "attachedB64": "",
+        "explainationAttachedB64": null,
+        "responses": [
+            {
+                "correct": false,
+                "label": "d'un rapport auprès du recueil d'Evénements Confidentiels uniquement lorsque des personnes sont décédées ou ont été gravement blessées à la suite de l'accident."
+            },
+            {
+                "correct": true,
+                "label": "d'une enquête effectuée par les services nationaux compétents dans tous les cas."
+            },
+            {
+                "correct": false,
+                "label": "d'une enquête effectuée par les services nationaux compétents uniquement lorsque des personnes sont décédées ou ont été gravement blessées à la suite de l'accident."
+            }
+        ]
+    },
+    {
+        "id": "3241",
+        "question": "Dans votre poste de pilotage, en position les mains croisées devant le visage, paumes vers l'avant, vous déplacez vos bras vers l'extérieur. Vous êtes en train d'indiquer au personnel au sol :",
+        "explaination": "Voir la fiche des signauxRevoir plus tardSupprimer de la liste \"A Revoir\"Poser une questionCommentaires (3)Masquer les commentaires",
+        "attachedB64": "",
+        "explainationAttachedB64": null,
+        "responses": [
+            {
+                "correct": true,
+                "label": "qu'il doit enlever les cales."
+            },
+            {
+                "correct": false,
+                "label": "qu'il doit mettre les cales."
+            },
+            {
+                "correct": false,
+                "label": "que les freins sont serrés."
+            },
+            {
+                "correct": false,
+                "label": "que les freins sont desserrés."
+            }
+        ]
+    },
+    {
+        "id": "2491",
+        "question": "Vous allez traverser un espace aérien de classe D. Les conditions météorologiques minimales à respecter sont :",
+        "explaination": "Les conditions sont :\n\nEn espace aérien contrôlé, et en espace aérien non contrôlé au-dessus de 3000 ft AMSL / 1000 ft AGL :\nVisibilité 5 km en dessous du FL100, 8 km au-dessus;\nEspacement par rapport aux nuages de 1500 m horizontalement, 300 m verticalement.\n\nEn espace aérien non contrôlé en dessous de 3000 ft AMSL / 1000 ft AGL :\nVisibilité 1,5 km ou 30 secondes de vol (la plus haute);\nHors des nuages;\nEn vue de la surface.\n\nVoir la fiche de révision sur l'espace aérienRevoir plus tardSupprimer de la liste \"A Revoir\"Poser une questionCommentaires (0)Masquer les commentaires",
+        "attachedB64": "",
+        "explainationAttachedB64": null,
+        "responses": [
+            {
+                "correct": true,
+                "label": "- une visibilité de 5 km,\n\n- une distance horizontale par rapport aux nuages de 1500 m,<br>\n- une distance verticale par rapport aux nuages de 300 m."
+            },
+            {
+                "correct": false,
+                "label": "- une visibilité de 1500 m,\n\n- être hors des nuages."
+            },
+            {
+                "correct": false,
+                "label": "- une visibilité de 8 km,\n\n- être hors des nuages."
+            }
+        ]
+    },
+    {
+        "id": "1885",
+        "question": "La poursuite d'un vol en IMC suite à une dégradation météorologique :",
+        "explaination": "Pour voler en IMC, il faut passer en régime de vol IFR, ce qui n'est possible que si vous avez la qualification IR valide, et que votre avion est équipé et certifié pour le vol aux instruments.Revoir plus tardSupprimer de la liste \"A Revoir\"Poser une questionCommentaires (4)Masquer les commentaires",
+        "attachedB64": "",
+        "explainationAttachedB64": null,
+        "responses": [
+            {
+                "correct": false,
+                "label": "peut être autorisé à un pilote non qualifié IR, dans un espace de classe D."
+            },
+            {
+                "correct": true,
+                "label": "est possible à condition de détenir une qualification IR valide et de voler sur un aéronef équipé en conséquence."
+            },
+            {
+                "correct": false,
+                "label": "est possible à la seule condition de détenir une qualification IR valide."
+            },
+            {
+                "correct": false,
+                "label": "peut être autorisé à un pilote non qualifié IR, dans un espace de classe E."
+            }
+        ]
+    },
+    {
+        "id": "2762",
+        "question": "Une licence de pilote privé avion (PPL/A) est délivrée pour une période maximale de 5 ans. Sa ré-émission à la fin de cette période est faite sur la demande :",
+        "explaination": "QUESTION OBSOLETE : depuis avril 2013, il n'y a plus de durée de vie du papier. Cette question est donc retirée des examens. Elle est conservée ici en attendant de voir par quoi elle va être remplacée.\n\nVoir la fiche de révision sur la licence PPL(A)Revoir plus tardSupprimer de la liste \"A Revoir\"Poser une questionCommentaires (1)Masquer les commentaires",
+        "attachedB64": "",
+        "explainationAttachedB64": null,
+        "responses": [
+            {
+                "correct": false,
+                "label": "de l'autorité."
+            },
+            {
+                "correct": true,
+                "label": "du titulaire."
+            },
+            {
+                "correct": false,
+                "label": "du président de l'aéro-club."
+            },
+            {
+                "correct": false,
+                "label": "d'un examinateur en vol (FE)."
+            }
+        ]
+    }
+]

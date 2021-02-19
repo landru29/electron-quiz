@@ -1,0 +1,36 @@
+div.question {
+    margin: 30px 50px 30px 50px;
+    border: solid 1px #888;
+    padding: 10px;
+    background-color: #1b1b1b;
+
+    div.header{
+        display: inline-block;
+        width: 5%;
+        vertical-align: top;
+    }
+
+    div.content {
+        display: inline-block;
+        width: 95%;
+
+        span.label{
+            font-weight: bold;
+            font-size: 1.2em;
+
+            &.right {
+                color: #39c763;
+            }
+
+            &.wrong {
+                color: #c73939;
+            }
+        }
+    
+        div.responses {
+            margin-top: 10px;
+            margin-left: 40px;
+            font-weight: normal;
+        }
+    }
+}
