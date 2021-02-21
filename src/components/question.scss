@@ -14,9 +14,17 @@ div.question {
         display: inline-block;
         width: 95%;
 
-        span.label{
-            font-weight: bold;
-            font-size: 1.2em;
+        div.label{
+            p:first-child {
+                font-weight: bold;
+                font-size: 1.2em;
+            }
+
+            p:not(:first-child) {
+                font-size: 1.1em;
+                margin:0 0 0 20px;
+                padding: 0;
+            }
 
             &.right {
                 color: #39c763;
@@ -31,6 +39,28 @@ div.question {
             margin-top: 10px;
             margin-left: 40px;
             font-weight: normal;
+        }
+
+        div.explaination {
+            background: #3e3e3e;
+            padding: 7px 20px 7px 20px;
+            margin: 10px 0 0 0;
+            border-radius: 10px;
+        }
+
+        img.question-pic{
+            max-height: 60px;
+            cursor: pointer;
+
+            border: solid 2px #1f1f1f;
+
+            &:hover {
+                border: solid 2px #0154ee;
+            }
+
+            &.zoomed {
+                max-height: none;
+            }
         }
     }
 }

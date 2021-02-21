@@ -28,29 +28,45 @@ export default class QuizComponent extends React.Component<QuizProps, QuizState>
             correction: false,
             score: [],
         };
+
+        Data.dataReady().subscribe({
+            next: () => {
+                this.getQuestions();
+            }
+        });
     }
 
     getQuestions() {
         this.uuid = uuidv4();
-        const api = new Data("http://localhost:3000");
+        const api = new Data();
         api.getData().subscribe({
             next: (questions: Question[]) => {
                 const ret: Question[] = [];
                 const score: boolean[] = [];
 
-                for (var i=0; i<this.props.count; i++) {
-                    const index = Math.floor(Math.random() * questions.length);
-                    ret.push(questions[index]);
-                    score.push(false);
-                    questions = questions.filter((a: Question, i: number) => i!==index);
+                if (this.props.count>0) {
+                    for (var i=0; i<this.props.count; i++) {
+                        if (questions.length) {
+                            const index = Math.floor(Math.random() * questions.length);
+                            ret.push(questions[index]);
+                            score.push(false);
+                            questions = questions.filter((a: Question, i: number) => i!==index);
+                        }
+                    }
+                    
+                    this.setState({
+                        questions: ret,
+                        correction: false,
+                        score,
+                    });
+                    return
                 }
-                
+
                 this.setState({
-                    questions: ret,
+                    questions: questions,
                     correction: false,
-                    score,
+                    score: Array.from({length: questions.length}, () => false),
                 });
-                console.log(questions);
             }
         });
     }
@@ -84,7 +100,7 @@ export default class QuizComponent extends React.Component<QuizProps, QuizState>
                 <span>Votre score: </span>
                 <span>{this.state.score.filter((elt) => elt).length}</span>
                 /
-                <span>{this.props.count}</span>
+                <span>{questions.length}</span>
             </div>}
             {questions.map((quest: Question, index: number) => {
                 return <QuestionComponent key={`${this.uuid}-${quest.id}`} 
