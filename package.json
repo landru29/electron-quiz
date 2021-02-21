@@ -2,8 +2,12 @@
   "name": "quiz",
   "version": "0.1.0",
   "private": true,
-  "main": "public/main.js",
+  "main": "public/electron.js",
   "homepage": "./",
+  "description": "Play a Quiz",
+  "author": {
+    "name": "Cyrille Meichel"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -31,8 +35,8 @@
     "preelectron-pack": "npm run build",
     "preelectron-test": "npm run build",
     "electron-start": "electron .",
-    "electron-pack": "electron-builder --win --linux --mac -c.extraMetadata.main=build/main.js",
-    "electron-test": "electron-builder -c.extraMetadata.main=build/main.js"
+    "electron-pack": "electron-builder --win --linux --macos -c.extraMetadata.main=build/electron.js",
+    "electron-test": "electron-builder -c.extraMetadata.main=build/electron.js"
   },
   "eslintConfig": {
     "extends": [
@@ -64,6 +68,13 @@
     ],
     "directories": {
       "buildResources": "assets"
+    },
+    "linux": {
+      "category": "Education",
+      "icon": "public/512x512.png"
+    },
+    "win": {
+      "icon": "public/favicon.ico"
     }
   }
 }
