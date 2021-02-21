@@ -28,9 +28,23 @@ app.on('ready', ()=> {
             label: "File",
             submenu: [
                 {
-                    label: "Open",
+                    label: "Ouvrir",
+                    "accelerator": "CmdOrCtrl+o",
                     click: ()=> {
-                        dialog.showOpenDialog({properties: ['openFile'] }).then(function (response) {
+                        dialog.showOpenDialog({
+                            title: "Sélectionner le fichier de quiz",
+                            properties: ['openFile'],
+                            filters: [
+                                {
+                                    "name": "json",
+                                    "extensions": ["json"]
+                                },
+                                {
+                                    "name": "all",
+                                    "extensions": ["*"]
+                                },
+                            ],
+                        }).then(function (response) {
                             if (!response.canceled) {
                                 // handle fully qualified file name
                               console.log(response.filePaths[0]);
@@ -42,7 +56,8 @@ app.on('ready', ()=> {
                     }
                 },
                 {
-                    label: "Quit",
+                    label: "Quitter",
+                    "accelerator": "CmdOrCtrl+q",
                     click: () => app.quit()
                 }
             ]
