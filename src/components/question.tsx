@@ -76,6 +76,10 @@ export default class QuestionComponent extends React.Component<QuestionProps, Qu
                     {this.props.quest.explainationAttachedB64 && <img alt="missing" src={this.props.quest.explainationAttachedB64}></img>}
                 </div>}
             </div>
+            {this.props.correction && <div className="footer">
+                <span>{this.props.quest.explaination}</span>
+                <img alt="missing" src={`data:image/png;base64,${this.props.quest.explainationAttachedB64}`}></img>
+            </div>}
         </div>;
     }
 }
